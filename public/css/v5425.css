@@ -1,0 +1,29 @@
+/* Smart Accounting 101 */
+.language-control{display:inline-flex;align-items:center}
+.language-control select{width:auto;min-width:6rem;max-width:100%;padding:.5rem .7rem}
+.login-wrap>.language-control{justify-self:end}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.notification-bell{position:relative;white-space:nowrap}
+.bell-count{display:inline-grid;place-items:center;min-width:1.25rem;height:1.25rem;padding:0 .25rem;margin-inline-start:.2rem;color:#fff;background:#b72030;border-radius:1rem;font-size:.72rem}
+.face-layer{position:absolute;inset:0;pointer-events:none}
+.face-tag{position:absolute;border:2px solid #ffe48b;color:#151515}
+.face-tag.match{border-color:#48df91;color:#092117}
+.face-tag.unknown{border-color:#ff7378;color:#281015}
+.face-tag span{position:absolute;left:-2px;top:0;transform:translateY(-100%);background:#ffe48b;padding:.15rem .4rem;font-weight:700;font-size:clamp(.75rem,2vw,1rem);white-space:nowrap;border-radius:.25rem .25rem 0 0}
+.face-tag.match span{background:#48df91}
+.face-tag.unknown span{background:#ff7378}
+.face-countdown{position:absolute;top:.7rem;right:.7rem;display:grid;place-items:center;width:3.25rem;height:3.25rem;border-radius:50%;border:3px solid #48df91;background:#0c1915;color:#fff;font-size:1.5rem;font-weight:800}
+.face-cancel{margin-block:.35rem .65rem}
+.date-range{min-width:0;align-self:end}
+.date-range button{width:100%;white-space:nowrap}
+.range-dialog{width:min(36rem,calc(100% - 2rem));max-height:calc(100% - 2rem);color:var(--text);background:var(--card,var(--surface,#fff));border:1px solid var(--border);border-radius:1rem;padding:1rem}
+.range-dialog::backdrop{background:#10171991}
+body[data-theme=dark] .range-dialog{background:#171717;color:#f5f5f5;color-scheme:dark}
+.range-dialog [data-month-fields][hidden]{display:none}
+.range-shortcuts{flex-wrap:wrap}
+.range-entry{display:grid;grid-template-columns:minmax(0,1fr) 2.75rem;gap:.35rem}
+.range-entry input[type=date]{width:2.75rem;min-width:0;padding:.3rem;color:transparent}
+.range-entry input[type=date]::-webkit-calendar-picker-indicator{margin:0}
+.range-dialog [data-range-apply]{background:#00878b;color:white}
+.data-preview ul{padding-inline-start:1.5rem;overflow-wrap:anywhere}
+@media(max-width:550px){.range-dialog .two{grid-template-columns:1fr}.kiosk-head .row-actions,.top-user{flex-wrap:wrap}}
