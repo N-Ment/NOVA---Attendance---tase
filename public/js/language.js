@@ -382,8 +382,8 @@ Office เริ่มต้นหยุดเสาร์และอาทิ�
 ลาพักร้อน|Annual leave|年假|နှစ်ပတ်လည် ခွင့်
 ลาป่วย|Sick leave|病假|ဖျားနာခွင့်
 ลากิจ|Personal leave|事假|ကိုယ်ရေးကိုယ်တာ ခွင့်
-กรุณาอัปเดต Apps Script เป็นรุ่น 5.4.2.5 ก่อนสแกน|Update Apps Script to 5.4.2.5 before scanning|扫描前请将 Apps Script 更新至 5.4.2.5|စကင်မဖတ်မီ Apps Script ကို 5.4.2.5 သို့ အပ်ဒိတ်လုပ်ပါ
-กรุณาอัปเดต Apps Script เป็นรุ่น 5.4.2.5|Update Apps Script to 5.4.2.5|请将 Apps Script 更新至 5.4.2.5|Apps Script ကို 5.4.2.5 သို့ အပ်ဒိတ်လုပ်ပါ
+กรุณาอัปเดต Apps Script เป็นรุ่น 5.4.2.7 ก่อนสแกน|Update Apps Script to 5.4.2.7 before scanning|扫描前请将 Apps Script 更新至 5.4.2.7|စကင်မဖတ်မီ Apps Script ကို 5.4.2.7 သို့ အပ်ဒိတ်လုပ်ပါ
+กรุณาอัปเดต Apps Script เป็นรุ่น 5.4.2.7|Update Apps Script to 5.4.2.7|请将 Apps Script 更新至 5.4.2.7|Apps Script ကို 5.4.2.7 သို့ အပ်ဒိတ်လုပ်ပါ
 ข้อมูลผู้พัฒนา|Developer information|开发者信息|ဖန်တီးသူ အချက်အလက်
 ผู้พัฒนา|Developer|开发者|ဖန်တီးသူ
 เวอร์ชันที่ใช้งาน|Current version|当前版本|လက်ရှိ ဗားရှင်း
